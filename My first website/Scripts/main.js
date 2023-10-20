@@ -18,14 +18,14 @@ myimage.onclick = function(){
       setUserName();
     } else {
       localStorage.setItem("name", username);
-      myheading.textContent = `Who loves Dogs, ${username}`;
+      myheading.textContent = `Who love Dogs, ${username}`;
     }
     }
 if(!localStorage.getItem("name")){
     setUserName();
 }else{
     const stored = localStorage.getItem("name");
-    myheading.textContent= `who loves Dogs, ${stored}`;
+    myheading.textContent= `who love Dogs, ${stored}`;
 }
 mybutton.onclick = function(){
 setUserName();
