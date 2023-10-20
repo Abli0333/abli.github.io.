@@ -4,7 +4,7 @@ const myimage = document.querySelector("img");
 myimage.onclick = function(){
     const mysource = myimage.getAttribute("src");
     if(mysource==="images/Dog.jpeg"){
-        myimage.setAttribute("src","images/dog2.jpeg");
+        myimage.setAttribute("src","My first website/Images/dog2.jpeg");
     }
     else{
         myimage.setAttribute("src","images/Dog.jpeg");
