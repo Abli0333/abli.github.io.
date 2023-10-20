@@ -3,11 +3,11 @@ myHeading.textContent = "Dogs";
 const myimage = document.querySelector("img");
 myimage.onclick = function(){
     const mysource = myimage.getAttribute("src");
-    if(mysource==="images/Dog.jpeg"){
+    if(mysource==="My first website/Images/Dog.jpeg"){
         myimage.setAttribute("src","My first website/Images/dog2.jpeg");
     }
     else{
-        myimage.setAttribute("src","images/Dog.jpeg");
+        myimage.setAttribute("src","My first website/Images/Dog.jpeg");
     }
     }
     let myheading = document.querySelector("h1");
